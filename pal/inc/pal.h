@@ -6232,6 +6232,7 @@ inline WCHAR *PAL_wcsstr(WCHAR *_S, const WCHAR *_P)
 }
 #endif
 
+#if 0
 /*++
 Function:
 _rotl
@@ -6308,6 +6309,7 @@ unsigned long long __cdecl _rotr64(unsigned long long value, int shift)
     retval = (value >> shift) | (value << (sizeof(unsigned long long) * CHAR_BIT - shift));
     return retval;
 }
+#endif
 
 PALIMPORT int __cdecl abs(int);
 PALIMPORT double __cdecl fabs(double);

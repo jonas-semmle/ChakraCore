@@ -23,7 +23,9 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+#if 0
 #define UnsignedMultiply128 _umul128
+#endif
 ULONG64
 UnsignedMultiply128 (
     IN ULONG64  Multiplier,
