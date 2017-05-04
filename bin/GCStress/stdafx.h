@@ -6,6 +6,9 @@
 
 #include "TargetVer.h"
 
+#include "Common.h"
+#include "CommonInl.h"
+
 #ifdef _WIN32
 #include <windows.h>
 #include <winbase.h>
@@ -36,9 +39,6 @@ inline unsigned int GetRandomInteger(unsigned int limit)
 }
 
 #include "WeightedTable.h"
-
-#include "Common.h"
-#include "CommonInl.h"
 
 extern Recycler * recyclerInstance;
 
